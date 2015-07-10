@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Green Mountain Baptist Church in Woodland, Washington</title>
+	<meta name="description" content="Welcome to Green Mountain Baptist Church in Woodland, Washington.">
+	<meta name="keywords" content="Green Mountain Baptist Church, Baptist Church, Baptist, Christian, Green Mountain, Church, Woodland, Woodland Washington, Woodland WA, Conservative Baptist, Woodland Church">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <script src="script.js"></script>
+	<!--<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-41471548-1', 'greenmountainbaptist.org');
+	  ga('send', 'pageview');
+
+	</script>-->
+</head>
+<body>
+<div id="wrapper">
+<nav>
+	<ul>
+		<li><button id="visitLink" onclick="visit()">Visit</a></li>
+		<li><button id="listenLink" onclick="listen()">Listen</a></li>
+		<li><button id="calendarLink" onclick="calendar()">Calendar</a></li>
+	</ul>
+</nav>
+<header>
+	<div id="header_images">
+		<!--<img src="logo.png" alt="Green Mountain Baptist Church in Woodland, WA"/>-->
+		<!--<img src="title.png" class="title" alt="The Friendly Church in the Firs" />-->
+	</div>
+</header>
+<div id="background"></div>
+<div id="content">
+    <div id="home" class="section">
+		<div class="content">
+        <h1><strong>Welcome to Green Mountain Baptist</strong></h1>
+		<h5><em>The Friendly Church in the Firs</em></h5>
+		<!--<img src="GreenMountainSmall.jpg" class="right" alt="Green Mountain Baptist Church">-->
+		<div class="indent">
+		We extend to you a warm welcome as you join with us in worshipping our Living Savior, the Lord Jesus Christ!
+		</div>
+		</div>
+	</div>
+	<div id="visit" class="section">
+		<div class="content">
+		<p><h4 class="underline">Worship & Fellowship Services</h4>
+		<div class="indent">	
+			<h5>Sunday</h5>
+				<ul>
+					<li><strong>9:45am</strong> Fellowship with us! Coffee,tea and cookies</li>
+					<li><strong>10:00am</strong> Sunday School</li>
+					<li><strong>11:00am</strong> Main Worship Service</li>
+					<li><em>For Men's, Ladies', and Youth Ministries, please check the calendar or contact us for times and events</em></li>
+				</ul>
+		8314 NE Spurrel Road<br/>
+		Woodland, WA 98674<br/>
+		Phone: (360) 225-2167<br/>
+		</div>
+		</div>
+    </div>
+    <div id="listen" class="section">
+		<div class="content">
+		<h2>Sermons</h2>
+		<div id="sermons">
+			<div class="audioContainer">
+				<div id="audio_controls">
+					<button id="prev"></button>
+					<button id="play_button"></button>
+					<button id="next"></button>
+				</div>
+				<div id="audio_title"></div>
+				<div id="audio_data"></div>
+				<div id="audio_download"></div>
+				<!--<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Oct 19 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Oct 19 2014.ogg" type="audio/ogg"/>
+					<h4><em>Psalm 119</em>- Oct 19th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Oct 19 2014.mp3" class="indent">Download</a>
+				</audio>
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Oct 5 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Oct 5 2014.ogg" type="audio/ogg"/>
+					<h4><em>Psalm 119</em>- Oct 5th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Oct 5 2014.mp3" class="indent">Download</a>
+				</audio>
+				
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 21 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 21 2014.ogg" type="audio/ogg"/>
+					<h4><em>Psalm 119</em>- September 21st 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Sept 21 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 14 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 14 2014.ogg" type="audio/ogg"/>
+					<h4><em>Revelation </em>- September 14th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Sept 14 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 7 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Sept 7 2014.ogg" type="audio/ogg"/>
+					<h4><em>Psalm 119</em>- September 7th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Sept 7 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 27 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 27 2014.ogg" type="audio/ogg"/>
+					<h4><em>Collossians 2</em>- April 27th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Apr 27 2014.mp3" class="indent">Download</a>
+				</audio>
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 20 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 20 2014.ogg" type="audio/ogg"/>
+					<h4>Easter Sunday - <em>Collossians 2</em>- April 20th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Apr 20 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 13 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Apr 13 2014.ogg" type="audio/ogg"/>
+					<h4>All About Him - <em>Collossians 2:4</em>- April 13th 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Apr 13 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Mar 23 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Mar 23 2014.ogg" type="audio/ogg"/>
+					<h4>The Madness of Unbelief - Luke 12:13-21 - March 23rd 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Mar 23 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Feb 16 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Feb 16 2014.ogg" type="audio/ogg"/>
+					<h4>True Mystery - Colossians 1:24-29 - February 16th, 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Feb 16 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Feb 2 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Feb 2 2014.ogg" type="audio/ogg"/>
+					<h4>Answers for Questions from Children - February 2nd, 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Feb 2 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 26 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 26 2014.ogg" type="audio/ogg"/>
+					<h4>Sermon - January 26th, 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Jan 26 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 12 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 12 2014.ogg" type="audio/ogg"/>
+					<h4>Sermon - January 12th, 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Jan 12 2014.mp3" class="indent">Download</a>
+				</audio>
+
+				<audio>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 5 2014.mp3" type="audio/mpeg"/>
+					<source src="http://www.greenmountainbaptist.org/audio/Sermon Jan 5 2014.ogg" type="audio/ogg"/>
+					<h4>Sermon - January 5th, 2014</h4><a href="http://www.greenmountainbaptist.org/audio/Sermon Jan 5 2014.mp3" class="indent">Download</a>
+				</audio>
+			-->
+			</div>
+			<br><br>
+			<a href="archive.html" style="float: left; margin-top: 20px">Archived sermons</a>
+		</div>
+		</div>
+	</div>
+    <div id="calendar" class="section">
+		<div class="content">
+		<h2>Coming soon</h2>
+        <!--<img src="churchCalendar-7-13.PNG" alt="calendar 7/13" class="calendar"/>-->
+		</div>
+	</div>
+	<div id="donate" class="section">
+		<div class="content">
+		<h2>Support the Ministry</h2>
+		<p>If you would like to contribute to this ministry please mail your contributions (checks) to:</p>
+		<div class="bordered">Green Mountain Baptist Church <br/> P.O. Box 339 <br/> Woodland, WA 98674</div>
+		</div>
+    </div>
+	<div id="about" class="section">
+		<div class="content">
+		<h2>About Us</h2>
+		
+		<h4><em>John 3:16</em></h4>
+		<em>"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."</em><br/>
+		<br/>
+		</div>
+		<div class="content">
+		<div id="pastor">
+			<h3>Pastor David Couto</h3>
+			<img src="dave1web.jpg" alt="David Couto"/>
+			<h4 class="underline">About Me</h4>
+			<p>I was raised in Massillon, a dirty little steel town in Ohio.  The only thing that Massillon was noted for was football.  My goal in life was to become a football coach.  I was well on my way when my plans were interrupted by an invitation to be all I could be in the Army.  It was while I was in the Army that I surrendered to Jesus Christ as my Lord and Savior, and became a born again believer.</p>
+			<p>After the Army, I attended Baptist Bible College and during my third year married my wife Miriam.  I was ordained into the gospel ministry and have been faithful to God&#39;s call ministering in various churches.  I attended Western Seminary in Portland OR and have been the pastor of Green Mountain Baptist church for going on four years.  My wife and I have three grown daughters and have just become grandparents.  I enjoy living in the North West and love ministry at Green Mountain.</p>
+		</div>
+		</div>
+		<div class="content">
+		<div id="position">
+			<h4><strong>Church Position Statement</strong></h4>
+			<ol>
+				<li>We believe the Bible is the inspired, inerrant Word of God and is authoritative as to what we are to believe and practice.</li>
+				<li>We believe that there is one God, eternally existent in three persons: Father, Son and the Holy Spirit.</li>
+				<li>We believe in the Deity of Jesus Christ, His virgin birth, His sinless life, His death on Calvary for the sins of the world, His ascension to Heaven and His imminent return.</li>
+				<li>We believe that reconciliation between Holy God and sinful men was made possible, and is only possible through faith in the vicarious death of Jesus Christ on Calvary.</li>
+				<li>We believe that the Holy Spirit is the third person of the trinity, who works to convict of sin, to glorify Christ, to illumine Scripture, and to bear fruit in the life of believers.</li>
+				<li>We believe in the existence of Satan, who opposes and mimics the work of God in this world, working to blind people to their spiritual need.</li>
+				<li>We believe Christ will call the saints out of this world (the Rapture) and will return seven years later with the saints to establish His Kingdom on the earth.</li>
+				<li>We believe in the separation of Church and State.</li>
+				<li>We believe Christ gave the church two ordinances to observe, both of which remind us of his sacrificial death for the salvation of men: baptism and communion.</li>
+				<li>We believe in the autonomy (independence & self rule) of the local church</li>
+				<li>We believe that believers are to be active in Evangelistic outreach at home and abroad.</li>
+			</ol>
+			
+			<h4><strong>The Bible - God's Word</strong></h4>
+			<p>The Bible contains: the Mind of God, the state of Man, the Way of Salvation, the doom of sinners, and the happiness of believers. Its doctrines are Holy, its precepts are binding, its histories are true, and its decisions are immutable. Read it to be wise, believe it to be safe, and practice it to be Holy.</p>
+			<p>It contains light to direct you, food to support you and comfort to cheer you. It is the traveler&#39;s map, the pilgrim&#39;s staff, the pilot&#39;s compass, the soldier&#39;s sword, and the Christian&#39;s charter.</p>
+		</div>
+		</div>
+	</div>
+	<div id="contact" class="section">
+		<div class="content">
+		<h2>Contact Us</h2>
+		<img src="GreenMountainSign2.jpg" class="right other" alt="Green Mountain Roadsign">
+		<p><strong>Green Mountain Baptist Church</strong><br/>
+		8314 NE Spurrel Road<br/>
+		P.o. Box 339<br/>
+		Woodland, WA 98674<br/>
+		Phone : 360 225 2167<br/>
+		</p>
+		
+		<a href="http://maps.google.com/maps?q=Green+Mountain+Baptist+Church,+Northeast+Spurrel+Road,+Woodland,+WA+98674&hl=en&ll=45.970481,-122.587509&spn=0.121934,0.334396&sll=45.939632,-122.587453&sspn=0.007625,0.0209&oq=Green+Mounta8314+NE+Spurrel+Road+Woodland,+WA+98674&gl=us&hq=Green+Mountain+Baptist+Church,+Northeast+Spurrel+Road,+Woodland,+WA+98674&radius=15000&t=m&z=12&iwloc=A"><h3>Click for Map</h3></a>
+		
+		<h3>Pastor David Couto</h3>
+		<a href="tel:360-225-2167" class="indent">360-225-2167</a>
+		<br/>
+		
+		<h3>Directions from I-5</h3>
+		<p>	Take exit #21/WOODLAND/COUGAR<br/>
+			Make a Sharp Right Turn on E CC ST<br/>
+			Continue on NW HAYES RD<br/>
+			Continue on NE CEDAR CREEK RD<br/>
+			Bear Left on NE GRIST MILL RD<br/>
+			Bear Left on NE SPURREL RD <br/> 
+			Arrive at 8314 NE SPURREL RD, WOODLAND, on the Right
+		</p>
+		</div>
+		<div class="content">
+		<h3>Email</h3>
+		<a href="mailto:greenmountainbaptist@gmail.com">greenmountainbaptist@gmail.com</a>
+		</div>
+	</div>
+</div>
+</div>
+	<footer>&copy; 2014 Green Mountain Baptist Church <a href="mailto:greenmountainbaptist@gmail.com">greenmountainbaptist@gmail.com</a></footer>
+ </div>
+ 
+</body>
+</html>
